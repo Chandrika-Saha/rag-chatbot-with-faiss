@@ -1,0 +1,18 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.env
+
+# FAISS / data artifacts
+faiss_index/
+embeddings/
+
+# OS
+.DS_Store
