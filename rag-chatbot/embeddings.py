@@ -48,7 +48,7 @@ def create_faiss_index(json_file='quotes_flat.json',
     print("🏗️  Creating FAISS index...")
     dimension = embeddings.shape[1]
 
-    # Using IndexFlatL2 for exact L2 distance search
+    # Using IndexFlatIP for exact cosine similarity search
     index = faiss.IndexFlatIP(dimension)
 
     # Add embeddings to index

@@ -78,7 +78,7 @@ def search_meditations(query,
         print(f"\n[{rank}] 📊 Score: {score:.4f}")
         print(f"    🆔 ID: {item['id']}")
         print(f"    📖 Book: {item['book']}")
-        print(f"    📝 Text: {item['text'][:150]}{'...' if len(item['text']) > 150 else ''}")
+        print(f"    📝 Text: {item['text']}{'...' if len(item['text']) > 150 else ''}")
 
     print(f"\n{'=' * 60}\n")
     return results
