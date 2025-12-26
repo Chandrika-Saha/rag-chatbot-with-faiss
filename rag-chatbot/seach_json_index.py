@@ -129,11 +129,11 @@ if __name__ == '__main__':
                                               'meditations_metadata.json',
                                               'all-MiniLM-L6-v2')
     # Multiple searches
-    queries = [
-        "What is the nature of death?",
-        "The importance of virtue",
-        "Finding inner peace"
-    ]
+    # queries = [
+    #     "What is the nature of death?",
+    #     "The importance of virtue",
+    #     "Finding inner peace"
+    # ]
 
     # query_categories = {
     #     "Emotional Regulation": [
