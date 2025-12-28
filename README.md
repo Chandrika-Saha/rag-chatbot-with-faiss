@@ -49,7 +49,6 @@ meddling, ungrateful, arrogant, dishonest, jealous and surly - (Book TWO, id:p1)
 
 - Python 3.8 or higher
 - [Ollama](https://ollama.ai) installed and running
-- At least 4GB RAM for embedding model + LLM
 
 ### Installation
 
